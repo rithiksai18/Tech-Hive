@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 15 Pro",
+        "category": "phones",
+        "price": 999,
+        "image": "images/iphone15.jpg",
+        "description": "Experience the latest iPhone with A17 Bionic chip and ProMotion display."
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy S23 Ultra",
+        "category": "phones",
+        "price": 1199,
+        "image": "images/s23ultra.jpg",
+        "description": "Powerful performance with Snapdragon 8 Gen 2 and 200MP camera."
+    },
+    {
+        "id": 3,
+        "name": "MacBook Pro 16",
+        "category": "laptops",
+        "price": 2499,
+        "image": "images/macbook.jpg",
+        "description": "M3 Max chip, Liquid Retina XDR display, and all-day battery life."
+    },
+    {
+        "id": 4,
+        "name": "Dell XPS 15",
+        "category": "laptops",
+        "price": 1799,
+        "image": "images/dellxps.jpg",
+        "description": "High-performance Ultrabook with a 4K OLED display and Intel Core i9."
+    },
+    {
+        "id": 5,
+        "name": "Sony WH-1000XM5 Headphones",
+        "category": "accessories",
+        "price": 399,
+        "image": "images/sonyheadphones.jpg",
+        "description": "Industry-leading noise cancellation and crystal-clear sound."
+    },
+    {
+        "id": 6,
+        "name": "Apple AirPods Pro 2",
+        "category": "accessories",
+        "price": 249,
+        "image": "images/airpods.jpg",
+        "description": "Adaptive EQ and spatial audio for immersive sound experience."
+    }
+]
+
+  
+  

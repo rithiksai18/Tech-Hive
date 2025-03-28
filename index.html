@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Gadget Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Tech Store</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><button id="dark-mode-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1 class="fade-in">Discover the Latest Tech Gadgets</h1>
+        <p class="fade-in">Shop the best deals on phones, laptops, and accessories.</p>
+        <button class="shop-now-btn">Shop Now</button>
+    </section>
+
+    <section id="shop" class="product-list">
+        <h2 class="slide-in">Shop Our Products</h2>
+        <div class="filters">
+            <input type="text" id="search-bar" placeholder="🔍 Search products...">
+            <select id="category-filter">
+                <option value="all">All</option>
+                <option value="phones">Phones</option>
+                <option value="laptops">Laptops</option>
+                <option value="accessories">Accessories</option>
+            </select>
+        </div>
+        <div class="product-grid" id="product-container"></div>
+    </section>
+
+    <section id="cart" class="cart-section">
+        <h2 class="bounce-in">Shopping Cart</h2>
+        <div id="cart-items"></div>
+        <p>Total: $<span id="total-price">0.00</span></p>
+        <button id="checkout">Checkout</button>
+    </section>
+    
+    <section id="about" class="about-section">
+        <h2 class="zoom-in">About Us</h2>
+        <p>We are a leading tech store providing the latest gadgets at the best prices.</p>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h2 class="rotate-in">Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Tech Gadget Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
